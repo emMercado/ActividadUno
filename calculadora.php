@@ -4,13 +4,13 @@
 	$operador = $_GET['operador'];
 	
 	if($operador == "+"){
-		$solucion = $operando1 + $operando2;
+		$solucion = $operando1 + $operando2
 	}else if($operador == "-"){
-		$solucion = $operando1 - $operando2;
+		$solucion = $operando1 - $operando2
 	}else if($operador == "*"){
-		$solucion = $operando1 * $operando2;
+		$solucion = $operando1 * $operando2
 	}else if($operador == "/"){
-		$solucion = $operando1 / $operando2;
+		$solucion = $operando1 / $operando2
 	}
 	echo "La solución es: ".$solucion;
 ?>
